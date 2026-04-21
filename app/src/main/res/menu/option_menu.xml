@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/camara"
+        android:icon="@drawable/baseline_camera_alt_24"
+        android:title="Camera"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/search"
+        android:title="Search"
+        android:icon="@drawable/seach"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+    <item android:id="@+id/option2"
+        android:title="New group"
+        />
+    <item android:id="@+id/option3"
+        android:title="New broadcast"
+        />
+    <item android:id="@+id/option4"
+        android:title="Linked device"
+        />
+    <item android:id="@+id/option5"
+        android:title="Starred"
+        />
+    <item android:id="@+id/option6"
+        android:title="Read all"
+        />
+    <item android:id="@+id/option7"
+        android:title="Setting"
+        />
+
+</menu>

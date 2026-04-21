@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/btnchat"
+        android:icon="@android:drawable/sym_action_chat"
+        android:title="Chat"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/btnupdate"
+        android:icon="@drawable/baseline_browser_updated_24"
+        android:title="Update"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/btnCommunities"
+        android:icon="@drawable/baseline_diversity_2_24"
+        android:title="Communities"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/btnCall"
+        android:icon="@drawable/baseline_call_24"
+        android:title="Call"
+        app:showAsAction="ifRoom"
+        />
+
+
+
+</menu>
